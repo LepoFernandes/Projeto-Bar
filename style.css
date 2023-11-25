@@ -1,9 +1,18 @@
+:root {
+  --cor-branca: #FFFFFF;
+  --cor-marrom: #8B4513;
+  --cor-cinza-claro: #F5F5F5;
+  --cor-amarelo: rgba(255, 194, 0, 1);
+  --cor-cinza-escuro: #333333;
+}
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     outline: 0;
 }
+
 
 body {
     margin: 0;
@@ -12,7 +21,7 @@ body {
   
   .bg-home {
     background: linear-gradient(90deg, rgba(220,20,60,1) 0%, rgba(255,194,0,1) 100%, rgba(0,0,0,1) 100%);; 
-    color: #FFFFFF; 
+    color: var(--cor-branca); 
   }
   
   header {
@@ -28,7 +37,7 @@ body {
   
   .header-content a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: var(--cor-branca);
     margin-right: 20px;
     font-size: 1.2em;
     font-weight: 500;
@@ -36,7 +45,7 @@ body {
   }
   
   .header-content a:hover {
-    color: #8B4513; 
+    color:var(--cor-marrom); 
   }
   
   .header-logo img {
@@ -55,7 +64,7 @@ body {
     background-position: center;
     padding: 200px 0;
     text-align: center;
-    color: #F5F5F5;
+    color: var(--cor-branca);
     
   }
   
@@ -77,8 +86,8 @@ body {
   
   
   .footer {
-    background-color: #8B4513; 
-    color: #FFFFFF;
+    background-color: var(--cor-amarelo); 
+    color: var(--cor-branca);
     padding: 50px 0;
     text-align: center;
   }
@@ -110,8 +119,8 @@ body {
     width: 120px;
     top: 8px;
     left: -144px;
-    background-color: #333333; 
-    color: #FFFFFF; 
+    background-color: var(--cor-cinza-escuro); 
+    color: var(--cor-branca); 
     padding: 6px;
     border-radius: 8px;
     text-align: center;
