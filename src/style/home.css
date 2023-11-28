@@ -7,7 +7,7 @@
 @import url(footer.css);
 
 .hero {
-  background-image: url('/src/image/frentebar.png');
+  background-image: url('../image/frentebar.png');
   background-size: cover;
   background-position: center;
   padding: 200px 0;
