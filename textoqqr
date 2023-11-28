@@ -1,16 +1,4 @@
- <section id="about">
-        <div class="container about-content">
-            <div><img src="" alt="">
-            </div>
-            <div class="about-description">
-                <h2>Sobre Nós</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing
-                    elit. Nulla impedit voluptas, nihil dolore nemo sapiente animi corporis molestias modi in quos
-                    corrupti asperiores hic atque assumenda magnam unde laboriosam reprehenderit?</p>
-                <p>Horário de funcionamento: <strong>09:00</strong> ás <strong>19:00</strong></p>
-            </div>
-        </div>
-    </section>
+
     <section id="catalog">
         <div class="catalog-content container">
             <h2>Principais produtos</h2>
@@ -37,6 +25,27 @@
                 <div class="product-info">
                     <strong>Produto 3</strong>
                     <button>R$ 75,00</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="" alt="">
+                <div class="product-info">
+                    <strong>Produto 4</strong>
+                    <button>R$ 45,00</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="" alt="">
+                <div class="product-info">
+                    <strong>Produto 5</strong>
+                    <button>R$ 45,00</button>
+                </div>
+            </div>
+            <div class="product">
+                <img src="" alt="">
+                <div class="product-info">
+                    <strong>Produto 6</strong>
+                    <button>R$ 45,00</button>
                 </div>
             </div>
         </section>

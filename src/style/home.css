@@ -36,19 +36,4 @@
 }
  
 
-@media screen and (max-width: 768px) {
-  .btn-whatsapp img {
-    max-width: 50px;
-  }
-  .header-logo img {
-    display: none;
-  }
 
-  .hero-logo img {
-    display: block;
-    width: 300px;
-    height: auto; 
-    margin-left: 90px;
-    margin-bottom: 70px;
-  }
-}
