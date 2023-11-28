@@ -1,0 +1,38 @@
+.bg-home {
+    background: linear-gradient(90deg, rgba(220,20,60,1) 0%, rgba(255,194,0,1) 100%, rgba(0,0,0,1) 100%);; 
+    color: var(--cor-branca); 
+  }
+    
+  header {
+    padding: 1em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+    
+  .header-content {
+    display: flex;
+  }
+    
+  .header-content a {
+    text-decoration: none;
+    color: var(--cor-branca);
+    margin-right: 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+    
+  .header-content a:hover {
+    color:var(--cor-marrom); 
+  }
+    
+  .header-logo img {
+    width: 120px;
+    height: auto;
+  }
+    
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }

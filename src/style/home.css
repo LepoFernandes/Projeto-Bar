@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+@import url(style.css);
+
+@import url(nav.css);
+
+@import url(footer.css);
+
+.hero {
+  background-image: url('/src/image/frentebar.png');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  text-align: center;
+  color: var(--cor-branca);  
+}
+  
+.hero-logo img {
+  display: none;
+}
+
+.hero h1 {
+  font-size: 3.5em;
+  margin-bottom: 20px;
+}
+  
+.hero h2 {
+  font-size: 1.8em;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+  
+.hero p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+ 
+
+@media screen and (max-width: 768px) {
+  .btn-whatsapp img {
+    max-width: 50px;
+  }
+  .header-logo img {
+    display: none;
+  }
+
+  .hero-logo img {
+    display: block;
+    width: 300px;
+    height: auto; 
+    margin-left: 90px;
+    margin-bottom: 70px;
+  }
+}

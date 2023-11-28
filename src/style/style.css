@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --cor-vermelho: rgba(220, 20, 60, 1);
+  --cor-amarelo: rgba(255, 194, 0, 1);
+  --cor-branca: rgba(255, 255, 255, 1);
+  --cor-cinza-escuro: #333333;
+  --cor-marrom: rgba(139, 69, 19, 1);
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
