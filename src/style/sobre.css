@@ -17,11 +17,13 @@
     gap: 14px;
     padding: 34px 14px 64px 14px;  
     background-color: rgba(165, 97, 42, 0.555); 
+    overflow: hidden;
 }
 
 .about-content img {
     max-width: 570px;
     border-radius: 50%;
+    height: auto;
 }
 
 .about-content div {
@@ -45,10 +47,4 @@
     align-items: center;
 }
 
-@media  screen and (max-width:768px) {
-    .about-content{
-        flex-direction: column;
-        flex-direction: column-reverse;
-    }
-    
-}
+
