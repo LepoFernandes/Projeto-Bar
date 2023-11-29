@@ -15,6 +15,10 @@
 
     <link rel="stylesheet" href="src/style/responsive.css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 </head>
 <body>
     <div class="bg-home">
@@ -26,7 +30,7 @@
                 <a href="catalogo.html">Catálogo</a> 
                 <a href="localizacao.html">Localização</a>
             </nav>
-            <div class="header-logo">
+            <div data-aos="fade-right" class="header-logo">
                 <img src="src/image/logo-bar1.png" alt="Logo do bar">
             </div>
         </header>
@@ -38,49 +42,49 @@
             <p>Conheça alguns de nossos produtos.</p>
         </div>
         <section class="products">
-            <div class="product">
+            <div data-aos="flip-left" data-aos-deLay="100" class="product">
                 <img src="src/image/bebidas-catalogo/Brahma Chopp 1Litro.png" alt="Brahma litro">
                 <div class="product-info">
                     <strong>Cerveja Brahma Chopp 1L</strong>
                     <button>R$ 10,00</button>
                 </div>
             </div>
-            <div class="product">
+            <div data-aos="flip-up" data-aos-deLay="100" class="product">
                 <img src="src/image/bebidas-catalogo/Brahma Chopp 473ml.png" alt="Brahma latão">
                 <div class="product-info">
                     <strong>Cerveja Brahma Chopp Latão</strong>
                     <button>R$ 6,00</button>
                 </div>
             </div>
-            <div class="product">
+            <div data-aos="flip-left" data-aos-deLay="100" class="product">
                 <img src="src/image/bebidas-catalogo/cocacola.png" alt="Coca-cola">
                 <div class="product-info">
                     <strong>Refrigerante Coca-cola 2L</strong>
                     <button>R$ 11,00</button>
                 </div>
             </div>
-            <div class="product">
+            <div data-aos="flip-up" data-aos-deLay="100" class="product">
                 <img src="src/image/bebidas-catalogo/fusion2l.png" alt="Fusion">
                 <div class="product-info">
                     <strong>Energético Fusion 2L</strong>
                     <button>R$ 12,00</button>
                 </div>
             </div>
-            <div class="product">
+            <div data-aos="flip-left" data-aos-deLay="200" class="product">
                 <img src="src/image/bebidas-catalogo/monster.png" alt="Monster">
                 <div class="product-info">
                     <strong>Energético Monster</strong>
                     <button>R$ 10,00</button>
                 </div>
             </div>
-            <div class="product">
+            <div data-aos="flip-up" data-aos-deLay="200" class="product">
                 <img src="src/image/bebidas-catalogo/original.png" alt="Original ">
                 <div class="product-info">
                     <strong>Cerveja Antartica Original 600ml</strong>
                     <button>R$ 10,00</button>
                 </div>
             </div>
-            <div class="product">
+            <div data-aos="flip-left" data-aos-deLay="200" class="product">
                 <img src="src/image/bebidas-catalogo/skol1l.png" alt="Skol ">
                 <div class="product-info">
                     <strong>Cerveja Skol 1L</strong>
@@ -91,7 +95,7 @@
     </section>
 
     <footer class="footer">
-        <div>
+        <div data-aos="zoom-in">
             <img src="src/image/logo-bar1.png" alt="Logo bar">
         </div>
         <p>&copy; 2023 Bar e Mini Mercado Sedenir. Todos os direitos reservados.</p>
@@ -101,5 +105,6 @@
             <span class="tooltip-text">Entre em contato!</span>
         </a>
     </footer>
+    <script src="src/js/script.js"></script>
 </body>
 </html>
